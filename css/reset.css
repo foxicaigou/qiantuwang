@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: normal;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft YaHei", sans-serif;
+    min-width: 1226px;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+
+input,textarea{
+    outline: none;
+    border: none;
+}
+
+button{
+    border: none;
+}

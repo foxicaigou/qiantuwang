@@ -1,0 +1,322 @@
+/* 中间<main> start */
+
+/* 公共样式 */
+/* 两边上下 */
+main .target,
+main .reason,
+main .spirit,
+main .group {
+    height: 600px;
+    padding: 0 14%;
+    padding-top: 100px;
+    padding-bottom: 75px;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+}
+
+main .spirit,
+main .group {
+    height: 1000px;
+}
+
+/* 标题 */
+.reason .con .con_top h2,
+.spirit .con .con_top h2,
+.group .con .con_top h2 {
+    font-family: SourceHanSansCN-Medium;
+    font-size: 36px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 36px;
+    letter-spacing: 4px;
+    color: #4364f7;
+}
+
+.reason .con .con_top p,
+.spirit .con .con_top p,
+.group .con .con_top p {
+    font-family: SourceHanSansCN-Medium;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 36px;
+    letter-spacing: 2px;
+    color: #666666;
+    margin-top: 20px;
+    padding-bottom: 50px;
+}
+
+/* 目标 target start */
+.target .con {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.target .con .con_lef {
+    width: 480px;
+}
+
+.target .con .con_lef h2 {
+    font-family: SourceHanSansCN-Regular;
+    font-size: 36px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 60px;
+    letter-spacing: 4px;
+    color: #4364f7;
+}
+
+.target .con .con_lef p {
+    font-family: SourceHanSansCN-Regular;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 36px;
+    letter-spacing: 2px;
+    color: #4364f7;
+    margin-top: 35px;
+    margin-bottom: 100px;
+}
+
+.target .con .con_lef a {
+    float: right;
+    display: block;
+    width: 219px;
+    height: 61px;
+    line-height: 61px;
+    text-align: center;
+    font-family: SourceHanSansCN-Medium;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 2px;
+    color: #ffffff;
+    background-image: linear-gradient(-90deg,
+            #6fb1fc 0%,
+            #4364f7 50%,
+            #0052d4 100%),
+        linear-gradient(#000000,
+            #000000);
+    background-blend-mode: normal,
+        normal;
+    box-shadow: 4px 25px 49px 0px rgba(16, 84, 221, 0.31);
+
+}
+
+.target .con .con_rig,
+.target .con .con_rig img {
+    width: 480px;
+}
+
+/* 目标 target end */
+
+/* 原因 reason start */
+main .reason {
+    background-color: #fff;
+}
+
+.reason .con {
+    height: 100%;
+}
+
+.reason .con .con_bottom ul {
+    display: flex;
+    height: 300px;
+}
+
+.reason .con .con_bottom ul li {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reason .con .con_bottom ul li div {
+    text-align: center;
+}
+
+.reason .con .con_bottom ul li p {
+    margin-top: 5%;
+}
+
+.reason .con .con_bottom ul li img {
+    width: 69px;
+}
+
+.reason .con .con_bottom ul li:nth-of-type(odd) {
+    /* 背景 */
+    background-image: linear-gradient(-90deg,
+            #6fb1fc 0%,
+            #4364f7 50%,
+            #0052d4 100%),
+        linear-gradient(#000000,
+            #000000);
+    background-blend-mode: normal,
+        normal;
+    box-shadow: 4px 25px 49px 0px rgba(16, 84, 221, 0.31);
+    /* 字 */
+    font-family: SourceHanSansCN-Normal;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 48px;
+    letter-spacing: 0px;
+    color: #ffffff;
+}
+
+.reason .con .con_bottom ul li:nth-of-type(even) {
+    /* 背景 */
+    background-color: #ffffff;
+    box-shadow: -38px 2px 57px 2px rgba(211, 211, 211, 0.45);
+    /* 字 */
+    font-family: SourceHanSansCN-Normal;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 48px;
+    letter-spacing: 0px;
+    color: #4364f7;
+}
+
+/* 原因 reason end */
+
+
+/* 精神 spirit start */
+.spirit .con .con_bottom {
+    height: 750px;
+    background-image: url(../img/index/bg.png);
+    background-repeat: no-repeat;
+    background-position: 170px 0px;
+    /* 相对定位 */
+    position: relative;
+}
+
+.spirit .con .con_bottom img {
+    /* 绝对定位 */
+    position: absolute;
+    top: 150px;
+    left: 270px;
+}
+
+.spirit .con .con_bottom ul {
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+
+.spirit .con .con_bottom ul li {
+    width: 374px;
+    height: 228px;
+    background-color: #fff;
+    box-shadow: -38px 2px 57px 2px rgba(211, 211, 211, 0.3);
+    background-image: url(../img/index/bac.png);
+    background-position: -60px 11px;
+    background-repeat: no-repeat;
+    padding: 0 30px;
+    padding-top: 40px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+.spirit .con .con_bottom ul li h4 {
+    font-family: SourceHanSansCN-Normal;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 32px;
+    letter-spacing: 2px;
+    color: #333333;
+    margin-bottom: 18px;
+}
+
+.spirit .con .con_bottom ul li p,
+.group .con .con_bottom ul li p {
+    font-family: SourceHanSansCN-Normal;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 30px;
+    letter-spacing: 0px;
+    color: #999999;
+}
+
+/* 精神 spirit end */
+
+/* 团队 group start */
+main .group {
+    background-color: #fff;
+}
+
+.group .con {
+    height: 100%;
+}
+
+.group .con .con_bottom {
+    height: 572px;
+    background-color: #ffffff;
+    box-shadow: -38px 2px 57px 2px rgba(211, 211, 211, 0.3);
+    display: flex;
+    justify-content: space-between;
+}
+
+.group .con .con_bottom ul {
+    width: 900px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.group .con .con_bottom ul li {
+    width: 300px;
+    height: 179px;
+    background-color: #ffffff;
+    box-shadow: 0px -1px 57px 2px rgba(211, 211, 211, 0.45);
+    padding-left: 42px;
+    padding-top: 32px;
+    padding-bottom: 19px;
+    background-image: url(../img/index/bac.png);
+    background-position: -100px 8px;
+    background-repeat: no-repeat;
+}
+
+.group .con .con_bottom ul li h4 {
+    font-family: SourceHanSansCN-Regular;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 30px;
+    letter-spacing: 2px;
+    color: #333333;
+    width: 254px;
+}
+
+.group .con .con_bottom ul li p:first-of-type {
+    margin-top: 17px;
+    margin-bottom: 15px;
+}
+
+.group .con .con_bottom ul li p {
+    font-family: SourceHanSansCN-Normal;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 24px;
+    letter-spacing: 2px;
+    color: #666666;
+    width: 254px;
+}
+
+.group .con .con_bottom img {
+    width: 300px;
+    height: 572px;
+}
+
+/* .group  */
+/* 团队 group end */
+
+/* 中间<main> end */

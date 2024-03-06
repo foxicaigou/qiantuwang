@@ -1,0 +1,188 @@
+/* 版心 */
+.mid {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+
+/* 背景图 start */
+.bg img {
+    width: 100%;
+}
+
+/* 背景图 end */
+
+
+
+/* 价值 value start */
+.value h2 {
+    font-family: SourceHanSansCN-Bold;
+    font-size: 32px;
+    font-weight: bold;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #3197ff;
+}
+
+.value p {
+    font-family: SourceHanSansCN-Regular;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #deeeff;
+}
+
+.value_con {
+    height: 425px;
+    padding-bottom: 60px;
+}
+
+.value_con li {
+    float: left;
+    width: 244px;
+}
+
+.value_con li img {
+    width: 60px;
+    height: 46px;
+    margin-top: 100px;
+}
+
+.value_con li:first-child {
+    padding-left: 70px;
+}
+
+.value_con li:nth-of-type(2) {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.value_con li h2 {
+    font-family: SourceHanSansCN-Bold;
+    font-size: 32px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #3197ff;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.value_con li p {
+    font-family: SourceHanSansCN-Regular;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #999999;
+}
+
+/* 价值 value end */
+
+
+/* 人员 people start */
+.people .title {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.people .title .title_lef h2 {
+    width: 300px;
+    font-family: SourceHanSansCN-Bold;
+    font-size: 32px;
+    font-weight: bold;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #3197ff;
+}
+
+.people .title .title_lef p {
+    font-family: SourceHanSansCN-Regular;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #deeeff;
+}
+
+.people .title .title_rig {
+    font-family: SourceHanSansCN-Regular;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 30px;
+    letter-spacing: 0px;
+    color: #c2bfbf;
+    margin-left: 30px;
+}
+
+.people .con {
+    height: 855px;
+}
+
+.people .con li {
+    float: left;
+    position: relative;
+    width: 235px;
+    height: 238px;
+    background-color: #f5f5f5;
+    border: solid 1px #999999;
+    margin-right: 110px;
+    margin-bottom: 124px;
+}
+
+.people .con li div {
+    position: absolute;
+    top: 184px;
+    left: 92px;
+    width: 226px;
+    height: 119px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 27px 0px #f5f5f5;
+    padding-left: 33px;
+}
+
+.people .con li div h3{
+    width: 49px;
+	font-family: SourceHanSansCN-Bold;
+	font-size: 20px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 30px;
+	letter-spacing: 0px;
+	color: #3197ff;
+    padding-top: 26px;
+    margin-right: 76px;
+    /* margin-bottom: 37px; */
+    float: left;
+}
+
+.people .con li div span,
+.people .con li div p{
+    font-family: SourceHanSansCN-Regular;
+	font-size: 16px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #cccccc;
+    float: left;
+}
+
+.people .con li div span{
+    padding-top: 32px;
+}
+
+.people .con li div p{
+    margin-top: 10px;
+}
+
+/* 人员 people end */
+
+
+
+footer {
+    float: left;
+    box-sizing: border-box;
+    width: 100%;
+}

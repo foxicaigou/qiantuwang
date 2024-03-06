@@ -1,0 +1,143 @@
+/* 留言板 words start  */
+.words {
+    height: 800px;
+    background-image: url(../img/connect/bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 180px;
+}
+
+.words form {
+    text-align: center;
+    padding: 0 72px;
+    padding-top: 59px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    width: 960px;
+    height: 623px;
+    background-color: #ffffff;
+    box-shadow: 1px 2px 5px 0px #bfbdbb;
+}
+
+.words form h2 {
+    font-family: SourceHanSansCN-Regular;
+    font-size: 28px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #000000;
+    margin-bottom: 47px;
+}
+
+.words form .aline{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 26px;
+}
+
+.words form input {
+    width: 280px;
+    height: 46px;
+    background-color: #f7f7f7;
+    font-family: SourceHanSansCN-Regular;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    padding-left: 18px;
+    padding-top: 15px;
+}
+
+.words form>input{
+    width: 100%;
+}
+
+.words form textarea {
+    width: 100%;
+    height: 132px;
+    background-color: #f7f7f7;
+    resize: none;
+    margin-top:23px;
+    margin-bottom:61px;
+    padding-left: 18px;
+    padding-top: 15px;
+}
+
+.words form button{
+    width: 477px;
+	height: 59px;
+	background-color: #496af9;
+	border-radius: 2px;
+	font-family: MicrosoftYaHei;
+	font-size: 20px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #ffffff;
+}
+/* 留言板 words end */
+
+
+/* 自主服务 service start */
+.service{
+    width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.service .service_title{
+    width: 90px;
+	font-family: SourceHanSansCN-Regular;
+	font-size: 22px;
+	font-weight: bold;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #000000;
+    border-bottom: 7px solid #496af9;;
+}
+
+.service .service_con{
+    padding-top: 10px;
+    border-top: solid 3px #2485d4;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.service .service_con li{
+    position: relative;
+    width: 290px;
+    height: 184.61px;
+    margin-bottom: 10px;
+}
+
+.service .service_con li img{
+    width: 100%;
+    height: 100%;
+}
+
+.service .service_con li .cover{
+    width: 100%;
+    height: 100%;
+    line-height:184.61px;
+    font-family: SourceHanSansCN-Regular;
+	font-size: 22px;
+	font-weight: bold;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #ffffff;
+    background-color: #000000;
+	opacity: 0.55;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.service .service_con li:hover .cover,
+.service .service_con li:first-of-type .cover{
+    display: block;
+}
+
+
+/* 自主服务 service end */

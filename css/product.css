@@ -1,0 +1,227 @@
+/* 展示 show start */
+.show {
+    height: 900px;
+    position: relative;
+    background-image: url(../img/product/bgimg.png);
+    display: flex;
+    align-items: center;
+}
+
+.show span {
+    position: absolute;
+    left: 15%;
+    font-family: SourceHanSansCN-Bold;
+    font-size: 80px;
+    font-weight: bold;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #58666f;
+}
+
+.show div {
+    width: 700px;
+    height: 50%;
+    padding-left: 25%;
+}
+
+.show div h1 {
+    font-family: SourceHanSansCN-Normal;
+    font-size: 80px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 140px;
+    letter-spacing: 0px;
+    color: #58666f;
+    margin-bottom: 30%;
+}
+
+.show div p {
+    font-family: AdobeHeitiStd-Regular;
+    font-size: 60px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #496af9;
+}
+
+/* 展示 show end  */
+
+/* 优势 advan start */
+
+.advan .title,
+.team .title {
+    padding-top: 60px;
+    text-align: center;
+}
+
+.advan .title h2,
+.team .title h2 {
+    height: 56px;
+    font-family: AdobeHeitiStd-Regular;
+    font-size: 38px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #d5d5d5;
+}
+
+.advan .title hr,
+.team .title hr{
+    color: #d5d5d5;
+}
+
+.advan .title p,
+.team .title p {
+    margin: 0 auto;
+    margin-top: -2px;
+    width: 150px;
+    background-color: #fff;
+    font-family: AdobeHeitiStd-Regular;
+    font-size: 34px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #343434;
+}
+
+.advan .choice {
+    height: 63px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+    text-align: center;
+    margin: 63px 0;
+}
+
+.advan .choice li {
+    width: 160px;
+    border: 1px solid #ccc;
+}
+
+.advan .choice li:first-child a,
+.advan .choice li:hover a {
+    color: #fff;
+    background-color: #496af9;
+}
+
+.advan .choice li a {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    line-height: 63px;
+    font-family: SourceHanSansCN-Normal;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #333333;
+}
+
+.advan .con .con_top {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.advan .con .con_top p {
+    margin-bottom: 25px;
+}
+
+.advan .con .con_mid {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+}
+
+.advan .con .con_mid li {
+    width: 20%;
+}
+
+.advan .con .con_mid li img {
+    width: 100%;
+}
+
+.advan .con .con_bottom {
+    padding-top: 40px;
+    padding-bottom: 50px;
+    text-indent: 2em;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.advan .con .con_bottom div {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+/* 优势 advan end */
+
+/* 团队 team start */
+.team {
+    padding-bottom: 200px;
+}
+
+.team .title p{
+    width: 180px;
+}
+
+.team .title h2{
+    height: 52px;
+}
+
+.team .con {
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.team .con li {
+    margin-top: 50px;
+}
+
+.team .con li div {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.team .con li p {
+    width: 202px;
+    font-family: SourceHanSansCN-Regular;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #333333;
+}
+
+/* 团队 team end */
+
+
+
+/* hr文字居中 */
+/* .title_hr {
+    border: 0;
+    font-size: 12px;
+    padding: 1em 0;
+    position: relative;
+    font-family: AdobeHeitiStd-Regular;
+    font-size: 38px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #d5d5d5;
+}
+
+.title_hr::before {
+    content: attr(data-content);
+    position: absolute;
+    padding: 0 1ch;
+    line-height: 1px;
+    border: solid #d0d0d5;
+    border-width: 0 99vw;
+    width: fit-content;
+    /* for 不支持fit-content浏览器 */
+    /* white-space: nowrap;
+    left: 50%;
+    transform: translateX(-50%);
+}  */
